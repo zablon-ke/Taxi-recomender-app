@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="appbar">
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="fontFamily">serif</item>
+    </style>
+
+    <style name="text_style">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="container1">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:radius">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">right</item>
+
+    </style>
+    <style name="container2">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:radius">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">left</item>
+
+    </style>
+
+
+</resources>

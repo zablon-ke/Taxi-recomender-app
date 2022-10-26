@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    style="@style/appbar"
+    android:id="@+id/appbar1"
+    android:layout_height="?attr/actionBarSize">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:logoDescription="my logo"
+        app:title="Find Customer"
+        app:titleTextColor="@color/white"
+        app:titleMarginStart="100dp" />
+</com.google.android.material.appbar.AppBarLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/appbar1"
+                android:id="@+id/wave2"
+                android:background="@drawable/ic_wave__5_" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

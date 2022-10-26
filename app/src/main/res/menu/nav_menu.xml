@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+      <item android:title="Home"
+          android:icon="@drawable/home"
+          android:id="@+id/home1"/>
+      <item android:title="My Rides"
+          android:id="@+id/my_rides"
+          android:icon="@drawable/rides"/>
+      <item android:title="Bookings"
+          android:id="@+id/bookings"
+          android:icon="@drawable/ic_add_person"/>
+      <item android:title="Account"
+          android:icon="@drawable/maleprofile"
+          android:id="@+id/account"/>
+  </group>
+</menu>

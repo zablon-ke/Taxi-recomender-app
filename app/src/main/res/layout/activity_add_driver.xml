@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    tools:context=".main.AddDriver">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        style="@style/text_style"
+                        android:layout_gravity="center"
+                        android:text="Click to Change Image"
+                        android:layout_centerVertical="true"
+                        android:textSize="12sp"
+                        android:layout_height="wrap_content"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_gravity="center"
+                        app:civ_border_width="2dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/add_driver_img"
+                        app:civ_border_color="@color/black"
+                        android:src="@drawable/account"
+                        android:layout_height="60dp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Add New Driver "
+                    android:layout_height="wrap_content"/>
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:stretchColumns="0"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_width="match_parent"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:hint="Enter Driver Full Names"
+                                android:inputType="text"
+                                android:id="@+id/add_driver_name"
+                                android:layout_height="wrap_content"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:hint="Enter email"
+                                android:inputType="textEmailAddress"
+                                android:id="@+id/user_email"
+                                android:layout_height="wrap_content"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:hint="Enter Phone Number"
+                                android:inputType="phone"
+                                android:id="@+id/add_driver_pno"
+                                android:layout_height="wrap_content"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_driver_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/btn_cancel"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_add_driver"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Add Driver"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/btn_save"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+</LinearLayout>

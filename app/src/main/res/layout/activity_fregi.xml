@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".main.F_Regi">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_height="450dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+                    android:src="@drawable/car_driver" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/f_img_2"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/taxi2"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/car_driver"
+                android:id="@+id/f_img_1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Register as :"
+                android:gravity="center"
+                android:fontFamily="serif"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:id="@+id/reg_pass_btn"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape"
+                    android:text="Passenger"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/reg_c_btn"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape"
+                    android:text="Taxi Company"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:paddingRight="10dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            style="@style/text_style"
+            android:text="Have an account"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:elevation="10dp"
+            android:id="@+id/login_card"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="150dp"
+                style="@style/text_title"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:text="Login"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</LinearLayout>

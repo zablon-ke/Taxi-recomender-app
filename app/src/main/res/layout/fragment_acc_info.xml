@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Acc_info">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
+            app:titleMarginStart="150dp"
+            app:titleTextColor="@color/white"
+            android:background="@color/colorPrimary"
+            app:title="Register" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@drawable/ic_wave__5_"
+            android:layout_height="50dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_gravity="center"
+                        app:civ_border_width="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="@color/black"
+                        android:src="@drawable/account"
+                        android:layout_height="60dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Payment Details "
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Our System allows Mpesa Payments only Enter the payments credentials as below"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="16sp"
+                        android:textFontWeight="500"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        style="@style/text_style"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:hint="Enter Paypill No"
+                            android:inputType="number"
+                            android:id="@+id/c_paypill"
+                            android:layout_height="wrap_content"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:hint="Enter Account Number"
+                            android:inputType="number"
+                            android:id="@+id/c_acc_no"
+                            android:layout_height="wrap_content"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/register"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="Register"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

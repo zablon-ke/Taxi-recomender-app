@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/background.xml" value="0.136" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/bar_shape.xml" value="0.136" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/bg1.xml" value="0.1535" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/bg_main.xml" value="0.136" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/btn_save.xml" value="0.136" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/circle.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/ic_back.xml" value="0.136" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/shape.xml" value="0.27685185185185185" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/drawable/text_field.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_add_driver.xml" value="0.1" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_car_details.xml" value="0.17" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_chome.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_cregister.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_detailed.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_drivers.xml" value="0.1" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_fregi.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_home.xml" value="0.15" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_maps.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_on_line_chatting.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/activity_taxi.xml" value="0.33" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/app_bar.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/book.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/bookings_single.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/driver_single.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_acc_info.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_account.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_add_car.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_bookings.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_c_personal.xml" value="0.2" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_home_fragment.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_my_drivers.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/fragment_myrides_fragment.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/grid_single.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/messages.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/my_rides.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/layout/rides_single.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/menu/c_menu.xml" value="0.2234375" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/menu/nav_menu.xml" value="0.2890625" />
+        <entry key="..\:/Users/Goddy/AndroidStudioProjects/LocationTracker/app/src/main/res/menu/top_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.c_personal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
+            app:titleMarginStart="150dp"
+            app:titleTextColor="@color/white"
+            android:background="@color/colorPrimary"
+            app:title="Register" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@drawable/ic_wave__5_"
+            android:layout_height="50dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="60dp"
+                        android:layout_gravity="center"
+                        app:civ_border_width="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="@color/black"
+                        android:src="@drawable/account"
+                        android:layout_height="60dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Company Details "
+                        android:layout_height="wrap_content"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/tb_c_details"
+                            android:stretchColumns="0"
+                            android:layout_height="wrap_content">
+                            <TableRow android:layout_width="match_parent"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_height="wrap_content">
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <EditText
+                                        android:layout_width="match_parent"
+                                        android:hint="Enter email *"
+                                        android:inputType="textEmailAddress"
+                                        android:id="@+id/user_email"
+                                        android:layout_height="wrap_content"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </TableRow>
+                            <TableRow android:layout_width="match_parent"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_height="wrap_content">
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:hint="Enter Company Name *"
+                                        android:inputType="textEmailAddress"
+                                        android:id="@+id/user_name"
+                                        android:layout_height="wrap_content"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </TableRow>
+                            <TableRow android:layout_width="match_parent"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_height="wrap_content">
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:hint="Enter Phone No *"
+                                        android:inputType="phone"
+                                        android:id="@+id/user_ph_no"
+                                        android:layout_height="wrap_content"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </TableRow>
+                            <TableRow android:layout_width="match_parent"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_height="wrap_content">
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:hint="Enter password *"
+                                        android:inputType="textPassword"
+                                        android:password="true"
+                                        android:id="@+id/user_password1"
+                                        android:layout_height="wrap_content"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </TableRow>
+                            <TableRow android:layout_width="match_parent"
+                                android:layout_marginTop="18dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_height="wrap_content">
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_height="wrap_content">
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:layout_width="match_parent"
+                                        android:hint="confirm password *"
+                                        android:inputType="textPassword"
+                                        android:id="@+id/user_confirm"
+                                        android:layout_height="wrap_content"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </TableRow>
+                        </TableLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:id="@+id/c_location"
+                            android:visibility="gone"
+                            android:background="@color/white"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                style="@style/text_title"
+                                android:textSize="20sp"
+                                android:layout_margin="20dp"
+                                android:text="Location Details"/>
+                            <androidx.appcompat.widget.SearchView
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:id="@+id/c_loc_search"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/shape"
+                                android:paddingLeft="10dp"
+                                android:layout_height="wrap_content"/>
+                            <ProgressBar
+                                android:layout_width="wrap_content"
+                                android:layout_gravity="center"
+                                android:id="@+id/c_progress"
+                                android:visibility="gone"
+                                android:layout_marginTop="30dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                style="@style/text_title"
+                                android:id="@+id/c_found_loc"
+                                android:text="location"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/next_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="Next"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

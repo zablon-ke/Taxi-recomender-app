@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972451490359",
+    "project_id": "taxi-995d5",
+    "storage_bucket": "taxi-995d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972451490359:android:c496044e5eb2b17e55adb2",
+        "android_client_info": {
+          "package_name": "com.example.locationtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972451490359-2u38sc4uiiklm09ro3fd9o7rb6donhmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpHizMNfjMvp-bgYQWUlNsgDx_DAh4H6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972451490359-2u38sc4uiiklm09ro3fd9o7rb6donhmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
